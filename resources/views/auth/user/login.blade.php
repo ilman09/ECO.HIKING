@@ -32,7 +32,7 @@
                 Mohon masuk menggunakan akun yang sudah <br> terdaftar di website <span class="text-green">ECO.HIKING</span>
             </p>
             <p>
-                <a class="btn btn-border btn-google-login" href="{{ route('welcome') }}">
+                <a class="btn btn-border btn-google-login" href="{{ route('user.login.google') }}">
                     <img src="{{asset('images/ic_google.svg')}}" class="icon" alt=""> Sign In with Google
                 </a>
             </p>
