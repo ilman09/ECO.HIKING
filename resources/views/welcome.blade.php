@@ -64,7 +64,7 @@
                     Dalam kegiatan alam bebas terdapat emisi karbon yang <br> dikeluarkan. Mapala UI berinisatif untuk melakukan carbon <br> offsetting pada emisi karbon yang dihasilkan sehingga dibuat <br> aplikasi berupa Carbon Calculator untuk mempermudah <br> perhitungannya.
                 </p>
                 <p class="mt-5">
-                    <a href="{{ route('hitung') }}" target"_blank" class="btn btn-master btn-secondary me-3">
+                    <a href="{{ route('hitung_create') }}" target"_blank" class="btn btn-master btn-secondary me-3">
                         Mulai Hitung
                     </a>
                 </p>
@@ -122,7 +122,7 @@
                                 Mentornya keren menyampaikan setiap materinya juga detail dan mudah dipahami.
                             </p>
                             <div class="user">
-                                <img src="{{asset('images/priska.png')}}" class="photo rounded-circle" alt="">
+                                <img src="{{asset('images/priskacantik.jpeg')}}" class="photo rounded-circle" alt="">
                                 <div class="info">
                                     <h4 class="name">
                                         Priska

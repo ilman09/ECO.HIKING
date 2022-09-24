@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserController;
+use App\Http\Controllers\User\HitungController;
 
 /*
 |--------------------------------------------------------------------------
@@ -22,13 +23,10 @@ Route::get('login', function () {
     return view('login');
 })->name('login');
 
-Route::get('hitung', function () {
-    return view('hitung');
-})->name('hitung');
+Route::get('hitung', [HitungController::class, 'create'])->name('hitung_create');
+Route::post('hitung', [HitungController::class, 'store'])->name('hitung_store');
+Route::get('berhasil_hitung', [HitungController::class, 'success'])->name('berhasil_hitung');
 
-Route::get('berhasil_hitung', function () {
-    return view('berhasil_hitung');
-})->name('berhasil_hitung');
 
 //socialite route
 Route::get('sign-in-google', [UserController::class, 'google'])->name('user.login.google');

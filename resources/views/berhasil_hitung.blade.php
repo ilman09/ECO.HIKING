@@ -12,7 +12,7 @@
                     Emisi Karbon Berhasil Di Hitung!
                 </h2>
                 <a href="{{route('welcome')}}" class="btn btn-primary mt-3">
-                    Lihat Hasil Perhitungan
+                    Halaman Utama
                 </a>
             </div>
         </div>

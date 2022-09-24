@@ -12,7 +12,6 @@
 </section>
 
 <form action="{{route('berhasil_hitung')}}" class="basic-form" >
-<!-- <p class="text-center subheader mt-4"> INPUT DATA <span class="text-green">EMISI</span>  DI KALKULATOR</p> -->
 
 <button type="submit" class="w-100 btn btn-primary">Hitung Emisi Karbon</button>
 <p class="text-center subheader mt-4">

@@ -12,7 +12,7 @@
                     <a class="nav-link" aria-current="page" href="{{ route('welcome') }}">Program</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ route('hitung') }}">Carbon Calculator</a>
+                    <a class="nav-link" href="{{ route('hitung_create') }}">Carbon Calculator</a>
                 </li>
             </ul>
             @auth
