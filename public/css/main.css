@@ -140,7 +140,7 @@ body {
   margin-top: 30px;
 }
 
-.btn-master, .btn-thirdty, .btn-primary, .btn-secondary {
+.btn-master, .btn-thirdty, .btn-primary, .btn-secondary, .btn-save, .btn-total{
   padding: 11px 36px 11px 36px;
   border-radius: 100px;
   border: 0;
@@ -154,6 +154,16 @@ body {
 
 .btn-primary {
   background: #31B380;
+  color: #fff;
+}
+
+.btn-save {
+  background: #31B380;
+  color: #fff;
+}
+
+.btn-total {
+  background: #0F7A50;
   color: #fff;
 }
 
@@ -283,4 +293,9 @@ body {
 
 .navbar .navbar-brand img {
   height: 72px;
+}
+
+.input .item-input .cover {
+  height: 255px;
+  margin-bottom: 30px;
 }
